@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
     }
   s.rubyforge_project = "squeel"
 
-  s.add_dependency 'activerecord', '~> 3.0'
-  s.add_dependency 'activesupport', '~> 3.0'
+  s.add_dependency 'activerecord', '~> 4.0.0beta'
+  s.add_dependency 'activesupport', '~> 4.0.0beta'
   s.add_dependency 'polyamorous', '~> 0.5.0'
   s.add_development_dependency 'rspec', '~> 2.6.0'
   s.add_development_dependency 'machinist', '~> 1.0.6'
